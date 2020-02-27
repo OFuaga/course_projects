@@ -82,6 +82,7 @@ p {
 
   .l-heading {
       font-size: 40px;
+      line-height: 1.2;
   }
 
 /* PADDING */
@@ -165,9 +166,8 @@ p {
 #home-info .info-content {
     float: right;
     width: 50%;
-    min-height: 100%;
+    height: 100%;
     padding: 50px 30px;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -209,7 +209,7 @@ p {
 
 /* TESTIMONIALS */
 #testimonials {
-    height: 600px;
+    height: 100%;
     background: url('../img/test-bg.jpg') no-repeat center center/cover;
     padding-top: 100px;
 }
