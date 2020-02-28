@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 46vh;
+}
+
+.apps-pic {
+  width: 1.5rem;
+}
+
+.profile-pic {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.search-icon {
+  width: 20px;
+  margin-left: 0.5em;
+}
+
+.mic-icon {
+  width: 24px;
+
+}
+
+/* NAVBAR */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 1.5rem 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  font-size: 13px;
+}
+
+#navbar ul li {
+  padding: 0 0.55rem;
+  text-align: center;
+}
+
+#navbar ul li img {
+  align-items: center;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+  color: #555;
+}
+
+/* SECTION: SEARCH */
+#search {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1rem;
+}
+
+#search .searchbar {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border: 1px solid rgba(211, 211, 211, 0.7);
+  border-radius: 50px;
+  margin: 2rem;
+  height: 2.7rem;
+  width: 30vw;
+}
+
+#search .searchbar img {
+  padding: 0 0.3rem;
+}
+
+#search .searchbar input {
+  height: 100%;
+  width: 89%;
+  border: hidden;
+  font-size: 16px;
+}
+
+#search .searchbar input:focus {
+  outline: none;
+}
+
+#search .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#search .buttons input {
+  margin: 0 1.4rem;
+  font-size: 14px;
+  border-style: none;
+  color: #555;
+}
+
+#search .buttons input:hover {
+  border: 1px solid #555;
+}
+
+/* FOOTER */
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.7rem;
+  margin-top: 42vh;
+}
+
+#footer .footer-left,
+#footer .footer-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer .footer-left li,
+#footer .footer-right li {
+  list-style: none;
+}
+
+#footer .footer-left li a,
+#footer .footer-right li a  {
+  text-decoration: none;
+  color: #555;
+  padding: 0.4rem 1rem;
+  font-size: 14px;
+}
