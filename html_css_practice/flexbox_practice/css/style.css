@@ -16,6 +16,8 @@ body {
 /* NAVBAR */
 #navbar {
   background: #333;
+  z-index: 1;
+  position: sticky;
 }
 
 .container {
@@ -62,18 +64,15 @@ body {
 
 /* HERO */
 #hero {
-  position: relative;
+  background: url(../img/silicon-valley-s1-1920x1080.jpg) no-repeat center center/cover;
+  height: 100vh;
 }
 
-#hero img {
-  width: 100%;
-}
-
-#hero div {
+#hero .hero-text {
   position: absolute;
   top: 80%;
-  left: 37%;
-  font-size: 5rem;
+  left: 33%;
+  font-size: 6rem;
   color: #f4f4f4;
 }
 
@@ -83,8 +82,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 40vh;
-  margin-top: -1rem;
   padding: 2rem;
 }
 
@@ -92,6 +89,5 @@ body {
   font-size: 1.5rem;
   text-align: center;
   padding: 2.5rem;
-  margin: 1rem;
   color: #333333
 }
