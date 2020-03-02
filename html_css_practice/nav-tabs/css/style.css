@@ -70,6 +70,7 @@ left: 60%;
 .main {
   position: relative;
   background: #ecf0f1;
+  height: 100vh;
 }
 
 .container {
@@ -78,7 +79,6 @@ left: 60%;
   height: 100%;
   margin: auto;
 }
-
 
 .content {
   position: absolute;
