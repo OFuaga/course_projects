@@ -9,7 +9,6 @@ body {
 
 /* UTILITIES */
 
-
 /* HEADER */
 #header {
   background: linear-gradient(to right, #2980b9, #3498db, #1abc9c, #16a085);
@@ -55,19 +54,28 @@ padding-top: 4.3vh;
 #nav-tabs ul li {
   margin: 0.4rem;
   padding: 1rem 2rem;
-  background-color: #ecf0f1;
   font-size: large;
   border-radius: 7px 7px 0 0;
-}
-
-#nav-tabs ul li:hover {
-  color: #3498db;
 }
 
 #nav-tabs a {
   text-decoration: none;
   color: #333;
 }
+#nav-tabs ul .current {
+  background-color: #ecf0f1;
+  color: #40b3ff;
+}
+
+#nav-tabs ul .not-current {
+  background-color: #bdc3c7;
+}
+
+#nav-tabs ul .not-current:hover {
+  color: #3694d3;
+  background-color: #c6ccd1;
+}
+
 
 /* SECTION: MAIN */
 .main {
