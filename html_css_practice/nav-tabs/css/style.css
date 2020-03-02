@@ -9,6 +9,11 @@ body {
 
 /* UTILITIES */
 
+/* DARK-MODE */
+.dark-mode {
+  background-color: linear-gradient(to right, #c0392b, #e67e22, #f39c12);
+}
+
 /* HEADER */
 #header {
   background: linear-gradient(to right, #2980b9, #3498db, #1abc9c, #16a085);
@@ -38,6 +43,23 @@ body {
 
 .logo h1 {
   padding-left: 1rem;
+}
+
+.dark-mode-btn {
+  position: absolute;
+  color: #f4f4f4;
+  background-color: #444;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  top: 78%;
+  left: 95%;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.dark-mode-btn:hover {
+  background-color: #333;
+  color: #e67e22;
 }
 
 /* NAV-TABS */
